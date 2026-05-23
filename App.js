@@ -22,7 +22,7 @@ const RootApp = () => {
   };
 
   return (
-    <SafeAreaProvider style={{ backgroundColor: theme.background }}>
+    <SafeAreaProvider style={{ flex: 1, backgroundColor: theme.background }}>
       <StatusBar style={isDarkMode ? 'light' : 'dark'} backgroundColor={isDarkMode ? '#1F2937' : '#FFFFFF'} />
       <NavigationContainer theme={navigationTheme}>
         <AppNavigator />
