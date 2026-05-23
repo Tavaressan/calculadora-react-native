@@ -1,6 +1,6 @@
 {
   "name": "atv_07_calculadora",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "version": "1.0.0",
   "dependencies": {
     "@expo/ui": "~56.0.11",
