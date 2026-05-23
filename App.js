@@ -6,7 +6,6 @@ import { ThemeProvider, useTheme } from './src/context/ThemeContext';
 import { FontProvider } from './src/context/FontContext';
 import AppNavigator from './src/navigation/AppNavigator';
 
-// Wrapper component to consume ThemeContext and dynamically style the StatusBar and NavigationContainer theme
 const RootApp = () => {
   const { theme, isDarkMode } = useTheme();
 

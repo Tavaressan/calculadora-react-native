@@ -1,13 +1,4 @@
-/**
- * Generic calculation function for the calculator screens.
- * 
- * @param {string} val1 - First number as a string
- * @param {string} val2 - Second number as a string
- * @param {string} operation - Operation type ('soma', 'subtracao', 'multiplicacao', 'divisao')
- * @returns {object} Object with formula string and the numerical result
- */
 export const calculate = (val1, val2, operation) => {
-  // Replace comma with dot for decimal separation
   const cleanVal1 = val1.replace(',', '.');
   const cleanVal2 = val2.replace(',', '.');
 

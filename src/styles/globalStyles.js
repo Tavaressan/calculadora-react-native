@@ -2,7 +2,6 @@ import { StyleSheet } from 'react-native';
 
 const getGlobalStyles = (theme, fontSize) => {
   return StyleSheet.create({
-    // Layout
     container: {
       flex: 1,
       backgroundColor: theme.background,
@@ -33,7 +32,6 @@ const getGlobalStyles = (theme, fontSize) => {
       marginVertical: 8,
     },
     
-    // Typography
     title: {
       fontSize: fontSize * 1.3,
       fontWeight: '700',
@@ -65,7 +63,6 @@ const getGlobalStyles = (theme, fontSize) => {
       marginBottom: 12,
     },
     
-    // Inputs
     input: {
       backgroundColor: theme.inputBg,
       color: theme.text,
@@ -78,7 +75,6 @@ const getGlobalStyles = (theme, fontSize) => {
       marginBottom: 16,
     },
     
-    // Buttons
     button: {
       backgroundColor: theme.buttonBg,
       paddingVertical: 14,
@@ -115,7 +111,6 @@ const getGlobalStyles = (theme, fontSize) => {
       fontWeight: '600',
     },
 
-    // Results Specific
     resultContainer: {
       alignItems: 'center',
       justifyContent: 'center',
@@ -139,7 +134,6 @@ const getGlobalStyles = (theme, fontSize) => {
       textAlign: 'center',
     },
 
-    // Configuration Area (Home Page)
     configPanel: {
       borderTopWidth: 1,
       borderTopColor: theme.border,

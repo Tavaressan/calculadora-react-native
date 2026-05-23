@@ -9,7 +9,6 @@ const ResultadoScreen = ({ route, navigation }) => {
   const { fontSize } = useFont();
   const globalStyles = getGlobalStyles(theme, fontSize);
 
-  // Destructure navigation parameters
   const { title, val1, val2, symbol, result } = route.params || {};
 
   return (

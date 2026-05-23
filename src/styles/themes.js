@@ -3,8 +3,8 @@ export const themes = {
     background: '#FFFFFF',
     text: '#000000',
     textSecondary: '#6B7280',
-    primary: '#0284C7', // Slate-blue
-    buttonBg: '#3B82F6', // Blue
+    primary: '#0284C7',
+    buttonBg: '#3B82F6',
     buttonText: '#FFFFFF',
     buttonActiveBg: '#1D4ED8',
     inputBg: '#F3F4F6',
@@ -18,8 +18,8 @@ export const themes = {
     background: '#121212',
     text: '#FFFFFF',
     textSecondary: '#9CA3AF',
-    primary: '#4B5563', // Grey
-    buttonBg: '#2E2E2E', // Dark grey
+    primary: '#4B5563',
+    buttonBg: '#2E2E2E',
     buttonText: '#FFFFFF',
     buttonActiveBg: '#1F2937',
     inputBg: '#1F2937',

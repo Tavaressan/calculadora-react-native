@@ -3,7 +3,6 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { useTheme } from '../context/ThemeContext';
 import { useFont } from '../context/FontContext';
 
-// Import Screens
 import HomeScreen from '../screens/HomeScreen';
 import SomaScreen from '../screens/SomaScreen';
 import MultiplicacaoScreen from '../screens/MultiplicacaoScreen';

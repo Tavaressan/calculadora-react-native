@@ -3,7 +3,7 @@ import React, { createContext, useState, useContext } from 'react';
 const FontContext = createContext();
 
 export const FontProvider = ({ children }) => {
-  const [fontSize, setFontSize] = useState(20); // Valor inicial = 20
+  const [fontSize, setFontSize] = useState(20);
 
   return (
     <FontContext.Provider value={{ fontSize, setFontSize }}>
