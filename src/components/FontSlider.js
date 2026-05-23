@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import Slider from '@react-native-community/slider';
+import ExpoSlider from '@expo/ui/community/slider';
 import { useTheme } from '../context/ThemeContext';
 import { useFont } from '../context/FontContext';
 import getGlobalStyles from '../styles/globalStyles';
@@ -18,7 +18,7 @@ const FontSlider = ({ value, onChange }) => {
           {Math.round(value)}px
         </Text>
       </View>
-      <Slider
+      <ExpoSlider
         style={styles.slider}
         minimumValue={14}
         maximumValue={36}
